@@ -11,11 +11,17 @@ const MyPosts = () => {
             <button>New Post</button>
         </div>
         <div className={s.posts}>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+
+            <Post />
+
         </div>
     </div>
     )

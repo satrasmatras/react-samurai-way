@@ -1,12 +1,13 @@
 .item {
-    background: #966a85;
+    background: white;
     border: white solid 5px;
     border-radius: 10px;
-    color: gold;
+    color: black;
     margin: 5px;
 }
 
 .item img {
     border-radius: 50%;
     width: 50px;
+    border: black solid 1px;
 }
