@@ -1,13 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Profile from "./components/Content";
 
-// Импортировать CSS modules
-// - Header
-// - NavBar
-// - Profile
+import Header from "./components/Header/Header";
+import NavBar from "./components/Navbar/NavBar";
+import Profile from "./components/Profile/Profile";
 
 const App = () => {
   return (
