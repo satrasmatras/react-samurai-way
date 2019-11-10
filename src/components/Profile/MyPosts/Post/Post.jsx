@@ -2,12 +2,13 @@ import React from 'react'
 import s from './Post.module.css'
 
 const Post = (props) => {
+
     return (
         <div className={s.item}>
-            <img src='https://www.w3schools.com/howto/img_avatar.png'/>
+            <img src={ `https://api.adorable.io/avatars/50/${Math.round(Math.random() * 1000)}.png`}/>
             { props.message || "Empty Message"}
             <div>
-                <span>likes count {props.likes}</span>
+                <span>likes {props.likes}</span>
             </div>
         </div>
     )

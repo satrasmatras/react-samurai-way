@@ -8,9 +8,19 @@ const MyPosts = () => {
         My posts
         <div>
             <textarea>Text...</textarea>
+        </div>
+        <div>
             <button>New Post</button>
         </div>
         <div className={s.posts}>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
+            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
