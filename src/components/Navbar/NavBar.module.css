@@ -3,12 +3,20 @@
     border: #465671 solid 5px;
     background-color: #374b62;
     border-radius: 20px;
+    padding: 10px;
 
 }
 .nav .item{
     color: #F0F0F0;
     text-align: center;
     padding: 10px;
+}
+.nav .item a{
+    color: #F0F0F0;
+    text-decoration: none;
+}
+.item a.activeLink{
+    color: #40b17b;
 }
 
 .nav .item:hover{
