@@ -1,4 +1,4 @@
-.content {
+.app-wrapper-content {
     color: #F0F0F0;
     grid-area: c;
     border: #465671 solid 5px;
@@ -7,12 +7,12 @@
     padding: 10px;
 }
 
-.content img {
+.app-wrapper-content img {
     height: 200px;
     width: 100%;
 }
 
-.content textarea{
+.app-wrapper-content textarea{
     width: 80%;
     font-size: 20px;
     padding: 5px;
@@ -21,13 +21,13 @@
     border: #F0F0F0 solid 5px;
 }
 
-.content button {
+.app-wrapper-content button {
     background-color: #40b17b;
     color: #F0F0F0;
     padding: 10px 50px;
 }
 
-.content button:hover {
+.app-wrapper-content button:hover {
     background-color: #F0F0F0;
     color: #40b17b;
 }

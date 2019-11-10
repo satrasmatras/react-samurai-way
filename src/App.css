@@ -11,3 +11,37 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
+
+.app-wrapper-content {
+  color: #F0F0F0;
+  grid-area: c;
+  border: #465671 solid 5px;
+  background-color: #374b62;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.app-wrapper-content img {
+  height: 200px;
+  width: 100%;
+}
+
+.app-wrapper-content textarea{
+  width: 80%;
+  font-size: 20px;
+  padding: 5px;
+  color: #F0F0F0;
+  background-color: #374b62;
+  border: #F0F0F0 solid 5px;
+}
+
+.app-wrapper-content button {
+  background-color: #40b17b;
+  color: #F0F0F0;
+  padding: 10px 50px;
+}
+
+.app-wrapper-content button:hover {
+  background-color: #F0F0F0;
+  color: #40b17b;
+}
