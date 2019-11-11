@@ -4,8 +4,8 @@ import Post from "./Post/Post";
 
 const MyPosts = () => {
     return (
-    <div>
-        My posts
+    <div className={s.postsBlock}>
+        <h2>My posts</h2>
         <div>
             <textarea>Text...</textarea>
         </div>
@@ -17,21 +17,6 @@ const MyPosts = () => {
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
             <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-            <Post message="First port" likes={Math.round(Math.random() * 1000)}/>
-
-            <Post />
-
         </div>
     </div>
     )
