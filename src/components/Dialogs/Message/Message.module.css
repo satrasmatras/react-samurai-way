@@ -1,0 +1,13 @@
+.message {
+    padding: 10px;
+    background-color: #40b17b;
+    border-radius: 50px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.message:hover {
+    background-color: #374b62;
+    color: #40b17b;
+    border: #40b17b solid 1px;
+}

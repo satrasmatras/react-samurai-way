@@ -12,25 +12,3 @@
     color: #40b17b;
     font-weight: bold;
 }
-
-
-
-.dialogItems .dialog{
-    padding: 10px;
-}
-
-.dialogItems .dialog.active{
-    color: #40b17b;
-}
-
-a.active{
-    color: #40b17b;
-}
-
-.messages{
-    padding: 10px;
-}
-
-.messages .message{
-
-}
