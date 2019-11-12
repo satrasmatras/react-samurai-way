@@ -23,6 +23,10 @@
     color: #40b17b;
 }
 
+a.active{
+    color: #40b17b;
+}
+
 .messages{
     padding: 10px;
 }
