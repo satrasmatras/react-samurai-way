@@ -22,7 +22,7 @@ const Dialogs = (props) => {
     // BLL
     // UI
 
-    let dialogsData = [
+    let dialogs = [
         {id: 1, name: 'Denis'},
         {id: 2, name: 'Alex'},
         {id: 3, name: 'Egor'},
@@ -30,29 +30,22 @@ const Dialogs = (props) => {
         {id: 5, name: 'Saris'}
     ];
 
-    let messagesData = [
+    let messages = [
         {id: 1, message: 'Hi'},
         {id: 2, message: 'How are you?'},
         {id: 3, message: 'I am OK'}
     ];
 
+    let dialogsElements = dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let messagesElements = messages.map(m => <Message message={m.message}/>);
+
     return (
         <div className={s.dialogs}>
             <div className={s.dialogItems}>
-                {dialogsData.map( dialogItem => <DialogItem name={dialogItem.name} id={dialogItem.id}/>)}
-                {/*<DialogItem name={dialogsData[0].name} id={dialogsData[0].id} isActive="active"/>*/}
-                {/*<DialogItem name='Viktoria' id='2'/>*/}
-                {/*<DialogItem name='Egor' id='3'/>*/}
-                {/*<DialogItem name='Pavel' id='4'/>*/}
-
+                {dialogsElements}
             </div>
             <div className={s.messages}>
-
-                <Message message={messagesData[0].message}/>
-                <Message message={messagesData[1].message}/>
-                <Message message={messagesData[2].message}/>
-
-
+                {messagesElements}
             </div>
         </div>
     )
