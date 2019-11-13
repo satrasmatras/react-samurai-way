@@ -13,20 +13,25 @@ const state = {
 
         messages: [
             {id: 1, message: 'Hi', owner: 'You'},
-            {id: 1, message: 'Hello!', owner: 'He'},
-            {id: 2, message: 'How are you?', owner: 'You'},
-            {id: 3, message: 'I am OK', owner: 'He'},
-            {id: 1, message: 'Let\'s go to walk in Friday ;)', owner: 'You'},
-            {id: 1, message: 'Sounds great! What time?', owner: 'He'},
-            {id: 2, message: 'I am free after 19 p.m.', owner: 'You'},
-            {id: 3, message: 'Perfect! See you.', owner: 'He'}
+            {id: 2, message: 'Hello!', owner: 'He'},
+            {id: 3, message: 'How are you?', owner: 'You'},
+            {id: 4, message: 'I am OK', owner: 'He'},
+            {id: 5, message: 'Let\'s go to walk in Friday ;)', owner: 'You'},
+            {id: 6, message: 'Sounds great! What time?', owner: 'He'},
+            {id: 7, message: 'I am free after 19 p.m.', owner: 'You'},
+            {id: 8, message: 'Perfect! See you.', owner: 'He'}
         ],
         dialogs: [
             {id: 1, name: 'Denis'},
             {id: 2, name: 'Alex'},
             {id: 3, name: 'Egor'},
             {id: 4, name: 'Pasha'},
-            {id: 5, name: 'Saris'}
+            {id: 5, name: 'Saris'},
+            {id: 6, name: 'Pasha'},
+            {id: 7, name: 'Saris'},
+            {id: 8, name: 'Pasha'},
+            {id: 9, name: 'Saris'}
+
         ]
     }
 }
