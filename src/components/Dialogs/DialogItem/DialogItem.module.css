@@ -3,5 +3,19 @@ a.active{
 }
 
 .dialog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
     padding: 10px;
+}
+.dialogAvatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dialogTitle{
+
 }

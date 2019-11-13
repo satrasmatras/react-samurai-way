@@ -12,3 +12,10 @@
     color: #40b17b;
     font-weight: bold;
 }
+
+.messages {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-left: #F0F0F0 solid 1px;
+}

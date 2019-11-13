@@ -11,3 +11,12 @@
     color: #40b17b;
     border: #40b17b solid 1px;
 }
+
+.messageYou {
+    align-self: flex-end;
+}
+
+.messageHe {
+    align-self: flex-start;
+    background-color: #465671;
+}

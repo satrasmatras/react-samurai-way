@@ -6,7 +6,10 @@ const DialogItem = (props) => {
 
     return (
         <div className={s.dialog}>
-            <NavLink activeClassName={s.active} to={`/dialogs/${props.id}`}>{props.name}</NavLink>
+            <div className={s.dialogAvatar}>
+                <img src={ `https://api.adorable.io/avatars/50/${[props.id + props.name]}.png`}/>
+            </div>
+            <NavLink activeClassName={s.dialogTitle + ' ' + s.active} to={`/dialogs/${props.id}`}>{props.name}</NavLink>
         </div>
     )
 };

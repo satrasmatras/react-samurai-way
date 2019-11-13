@@ -12,9 +12,14 @@ const state = {
     messagesPage: {
 
         messages: [
-            {id: 1, message: 'Hi'},
-            {id: 2, message: 'How are you?'},
-            {id: 3, message: 'I am OK'}
+            {id: 1, message: 'Hi', owner: 'You'},
+            {id: 1, message: 'Hello!', owner: 'He'},
+            {id: 2, message: 'How are you?', owner: 'You'},
+            {id: 3, message: 'I am OK', owner: 'He'},
+            {id: 1, message: 'Let\'s go to walk in Friday ;)', owner: 'You'},
+            {id: 1, message: 'Sounds great! What time?', owner: 'He'},
+            {id: 2, message: 'I am free after 19 p.m.', owner: 'You'},
+            {id: 3, message: 'Perfect! See you.', owner: 'He'}
         ],
         dialogs: [
             {id: 1, name: 'Denis'},
