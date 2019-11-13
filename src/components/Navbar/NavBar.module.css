@@ -24,3 +24,21 @@
     background-color: #465671;
     color: #40b17b;
 }
+
+.bestFriends {
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #F0F0F0;
+}
+
+.friend {
+    margin: 5px;
+    text-align: center;
+}
+.friend img {
+    border-radius: 50%;
+
+}

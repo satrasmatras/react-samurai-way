@@ -19,14 +19,14 @@ import Settings from "./components/Settings/Settings";
 // light gray = #465671
 
 const App = (props) => {
-
+    debugger;
     return (
         <BrowserRouter>
 
             <div className='app-wrapper'>
 
                 <Header/>
-                <NavBar/>
+                <NavBar state={props.state.siteBar}/>
 
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs'

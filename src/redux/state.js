@@ -9,6 +9,7 @@ const state = {
             {id: 5, message: 'Devil Will Wise!!!', likesCount: 666},
         ]
     },
+
     messagesPage: {
 
         messages: [
@@ -31,7 +32,14 @@ const state = {
             {id: 7, name: 'Saris'},
             {id: 8, name: 'Pasha'},
             {id: 9, name: 'Saris'}
+        ]
+    },
 
+    siteBar: {
+        topFriends: [
+            {id: 1, name: 'Egor'},
+            {id: 2, name: 'Pavel'},
+            {id: 3, name: 'Saris'}
         ]
     }
 }
