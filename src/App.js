@@ -19,27 +19,27 @@ import Settings from "./components/Settings/Settings";
 // dark gray = #374b62
 // light gray = #465671
 
-const App = () => {
-  return (
-      <BrowserRouter>
+const App = (props) => {
+    return (
+        <BrowserRouter>
 
-          <div className='app-wrapper'>
+            <div className='app-wrapper'>
 
-              <Header/>
-              <NavBar/>
+                <Header/>
+                <NavBar/>
 
-              <div className='app-wrapper-content'>
-                  <Route path='/dialogs' component={Dialogs}/>
-                  <Route path='/profile' component={Profile}/>
-                  <Route path='/feed' component={News}/>
-                  <Route path='/audio' component={Music}/>
-                  <Route path='/settings' component={Settings}/>
-              </div>
+                <div className='app-wrapper-content'>
+                    <Route path='/dialogs' render={() => <Dialogs {...props}/>}/>
+                    <Route path='/profile' render={() => <Profile {...props}/>}/>
+                    <Route path='/feed' component={News}/>
+                    <Route path='/audio' component={Music}/>
+                    <Route path='/settings' component={Settings}/>
+                </div>
 
-          </div>
+            </div>
 
-      </BrowserRouter>
-  );
+        </BrowserRouter>
+    );
 };
 
 export default App;
