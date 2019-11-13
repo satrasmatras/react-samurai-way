@@ -12,7 +12,6 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 
 
-
 // https://colorscheme.ru/#3q61Tw0w0w0w0
 
 // vue color - #40b17b
@@ -20,6 +19,7 @@ import Settings from "./components/Settings/Settings";
 // light gray = #465671
 
 const App = (props) => {
+
     return (
         <BrowserRouter>
 
@@ -29,8 +29,16 @@ const App = (props) => {
                 <NavBar/>
 
                 <div className='app-wrapper-content'>
-                    <Route path='/dialogs' render={() => <Dialogs {...props}/>}/>
-                    <Route path='/profile' render={() => <Profile {...props}/>}/>
+                    <Route path='/dialogs'
+                           render={() => <Dialogs
+                               state={props.state.messagesPage}
+                           />}
+                    />
+                    <Route path='/profile'
+                           render={() => <Profile
+                               state={props.state.profilePage}
+                           />}
+                    />
                     <Route path='/feed' component={News}/>
                     <Route path='/audio' component={Music}/>
                     <Route path='/settings' component={Settings}/>
