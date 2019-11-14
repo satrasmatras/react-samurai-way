@@ -11,6 +11,10 @@ const Dialogs = (props) => {
             </div>
             <div className={s.messages}>
                 {props.state.messages.map(m => <Message message={m.message} owner={m.owner}/>)}
+                <div class={s.newMessage}>
+                    <textarea>New message</textarea>
+                    <button>Enter</button>
+                </div>
             </div>
         </div>
     )
